@@ -1,0 +1,21 @@
+{
+  "answer": "Offline mode — matching source excerpts (not a generated answer):\n\n[1] RAG does not automatically guarantee accuracy or eliminate hallucinations.\n\n[2] RAG means Retrieval-Augmented Generation.\n\nOpen the cited passages to check the context. Keyword matches may not fully answer the question.",
+  "sources": [
+    {
+      "chunk_id": "f41025c268aa4e3da49728075da263e5:1",
+      "document_id": "f41025c268aa4e3da49728075da263e5",
+      "title": "Vector Search and RAG Explained",
+      "text": "and those passages and produces a grounded answer. Citations make it easier to inspect evidence. RAG does not automatically guarantee accuracy or eliminate hallucinations.\n\nChunking divides a long document into smaller passages. A modest overlap retains words near boundaries. Smaller passages improve focused retrieval, while larger passages preserve more context. The current application uses windows of up to 180 whitespace-separated words with a 35-word overlap.",
+      "score": 0.1338873384526928
+    },
+    {
+      "chunk_id": "f41025c268aa4e3da49728075da263e5:0",
+      "document_id": "f41025c268aa4e3da49728075da263e5",
+      "title": "Vector Search and RAG Explained",
+      "text": "A vector is an ordered list of numbers. Text embedding models convert words, sentences, and documents into numerical vectors. Texts with related meanings often have nearby vectors, although quality depends on the model and language.\n\nCosine similarity compares the directions of two vectors. For normalized vectors, their dot product is their cosine similarity. Values closer to one indicate more similar directions. Euclidean distance measures the straight-line distance between vectors.\n\nHNSW means Hierarchical Navigable Small World. It builds a graph in multiple layers so a search can navigate toward nearby vectors. HNSW is an approximate nearest-neighbor method: it can be faster on large collections, but a query is not guaranteed to find every exact nearest neighbor. Parameters such as M and ef_search trade memory and speed against recall.\n\nRAG means Retrieval-Augmented Generation. First, a retriever finds relevant source passages. Next, a language model receives the question and those passages and produces a grounded answer. Citations make it easier to inspect evidence. RAG does not automatically guarantee accuracy or eliminate hallucinations.\n\nChunking divides a long document into smaller passages. A modest overlap",
+      "score": 0.12850347841170504
+    }
+  ],
+  "mode": "offline",
+  "question": "What is RAG?"
+}
