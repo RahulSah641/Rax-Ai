@@ -1,0 +1,9 @@
+{
+  "bullets": [
+    "61 automated tests passed on Linux x86_64 with Python 3.12.14: vectors 10, actual HTTP API 9, documents/Ollama 35 and GUI controllers 7.",
+    "App and shell-launcher self-checks passed. The standalone offline demonstration executed successfully.",
+    "Optional PDF import: pypdf 6.10.0 extracted text from the 24-page presentation and returned matching passages.",
+    "Python 3.10 syntax parsing passed. GUI controllers used widget stand-ins and real SQLite/worker logic; local-model requests used mocks."
+  ],
+  "limitation": "Not exercised: real desktop rendering, Windows/macOS execution, Python 3.10 runtime and real Ollama model inference. Follow the included desktop checklist on your computer."
+}
