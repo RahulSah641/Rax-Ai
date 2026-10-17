@@ -1,3 +1,0 @@
-# The core desktop application uses only the Python standard library.
-# There are no mandatory pip packages. Tcl/Tk must be available with Python.
-# Optional PDF import: python -m pip install -r requirements-pdf.txt

@@ -1,2 +1,0 @@
-# Only needed to regenerate docs/Project_Presentation.pdf.
-reportlab>=4,<5

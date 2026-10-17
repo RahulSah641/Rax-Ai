@@ -1,2 +1,0 @@
-# Only needed to import text-based PDF documents. Core TXT/MD/paste works without it.
-pypdf>=5,<7
